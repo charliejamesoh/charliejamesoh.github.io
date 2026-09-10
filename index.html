@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charlie Oh | Playwright &amp; Screenwriter</title>
+<meta name="description" content="Charlie Oh is a playwright and screenwriter living in Brooklyn.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+<!--
+  HOW TO EDIT THIS PAGE
+  - Keep hero.jpg and headshot.jpg in the same folder as this file.
+  - To change the bio, edit the text between <p> and </p> below.
+-->
+
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #444;
+    --paper: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Raleway", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+  }
+
+  .hero {
+    min-height: clamp(320px, 60vh, 680px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.25rem;
+    background-color: #000;
+    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("hero.jpg");
+    background-size: cover;
+    background-position: center 80%;
+    padding-bottom: clamp(6rem, 22vh, 14rem);
+  }
+  .hero h1 {
+    margin: 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: clamp(1.75rem, 4.5vw, 2.75rem);
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0 1px 12px rgba(0,0,0,.6);
+  }
+
+  .page {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 3rem 1.25rem 4rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr);
+    gap: 3.5rem;
+    align-items: start;
+  }
+  .bio h2 {
+    margin: 0 0 1.25rem;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 1.3;
+  }
+  .bio p { margin: 0 0 1.6rem; max-width: 34em; }
+  .bio strong { font-weight: 700; }
+
+  .side img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #222;
+    margin-bottom: .75rem;
+  }
+  .contact { font-size: .875rem; line-height: 1.7; color: var(--muted); }
+  .contact h3 {
+    margin: 0 0 .5rem;
+    font-size: .875rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .contact .rep { margin-bottom: 1.5rem; overflow-wrap: anywhere; }
+  .contact .rep strong { display: block; color: var(--ink); font-weight: 700; }
+
+  footer {
+    text-align: center;
+    font-size: .8rem;
+    color: #777;
+    padding: 0 1.25rem 2.5rem;
+  }
+
+  @media (max-width: 760px) {
+    .page { grid-template-columns: 1fr; gap: 2.5rem; padding-top: 2rem; }
+    .side img { max-width: 360px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>Charlie Oh | Playwright &amp; Screenwriter</h1>
+</header>
+
+<main class="page">
+
+  <section class="bio">
+    <h2>Charlie Oh is a writer living in Brooklyn.</h2>
+
+    <p>His plays include &ldquo;<strong>LONG</strong>&rdquo; (Kennedy Center&rsquo;s Paula Vogel Award, Mark Twain Prize, Relentless Award Honors), &ldquo;<strong>COLEMAN &rsquo;72</strong>&rdquo; (world premiere South Coast Rep, published 2025 with Restless Books, Paul Stephen Lim Playwriting Award, Los Angeles Drama Critics Circle Award nominee), &ldquo;<strong>WHITE MONKEY</strong>&rdquo; (Goodman New Stages, Future Labs), &ldquo;<strong>THE DISRUPTORS</strong>&rdquo; (The Juilliard School, Sloan Commission), and &ldquo;<strong>IT&rsquo;S LIKE AN AMAZING TIME TO BE ALIVE RIGHT NOW (!), OR, THE CRYPTO PLAY</strong>.&rdquo;</p>
+
+    <p>His work has been developed at Manhattan Theatre Club, South Coast Rep, The Lark, Second Stage, The American Musical Theatre Project, The Goodman, Peacedale Global Arts, and is a past member, fellow, or alumni of Ensemble Studio Theater&rsquo;s Youngblood, Ars Nova Play Group, Page 73&rsquo;s Writers Group, The Lark, and the Catwalk Writer&rsquo;s Residency, among others.</p>
+
+    <p>He&rsquo;s a Core Writer at the Playwrights&rsquo; Center, an Artistic Research Fellow at the Folger Shakespeare Library, and is the inaugural recipient of the Steppenwolf + Stephen Sondheim Foundation commission.</p>
+
+    <p>He also holds commissions from Manhattan Theater Club + the Alfred P. Sloan Foundation, South Coast Rep, and has developed projects for television with Amazon Studios and Universal Studios.</p>
+
+    <p>Education: The Juilliard School&rsquo;s Lila Acheson Wallace American Playwrights Program, Northwestern University.</p>
+  </section>
+
+  <aside class="side">
+    <img src="headshot.jpg" alt="Headshot of Charlie Oh" width="1100" height="1650">
+
+    <div class="contact">
+      <h3>Contact</h3>
+
+      <div class="rep">
+        <strong>Sam Barickman and Alex Gold</strong>
+        Agent (Theatre)<br>
+        Creative Artists Agency<br>
+        sam.barickman@caa.com, alex.gold@caa.com
+      </div>
+
+      <div class="rep">
+        <strong>Howie Tanenbaum and Katie Laner</strong>
+        Agent (Television)<br>
+        Creative Artists Agency<br>
+        howie.tanenbaum@caa.com, katie.laner@caa.com
+      </div>
+
+      <div class="rep">
+        <strong>Eva Dickerman and Erica Kennedy</strong>
+        Manager<br>
+        Entertainment 360<br>
+        edickerman@ent360.com, ekennedy@ent360.com
+      </div>
+    </div>
+  </aside>
+
+</main>
+
+<footer>&copy; Charlie Oh</footer>
+
+</body>
+</html>
